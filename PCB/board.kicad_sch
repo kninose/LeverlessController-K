@@ -5,7 +5,7 @@
 	(uuid "707bd26d-85a5-4c42-81b9-818457669fa0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MicroComputer:RaspberryPi_Pico"
+		(symbol "MicroController:RaspberryPi_Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1181,24 +1181,12 @@
 		(uuid "106858c4-d672-4273-89fc-e08bb36cda4e")
 	)
 	(no_connect
-		(at 101.6 90.17)
-		(uuid "17a86357-ab87-4f65-a75f-486e34c161e6")
-	)
-	(no_connect
 		(at 101.6 87.63)
 		(uuid "2af49b9f-122b-4611-bd6b-1a69dd2dc9ea")
 	)
 	(no_connect
-		(at 101.6 85.09)
-		(uuid "3ee8a009-b5b9-40f2-a76a-e54edb04ab67")
-	)
-	(no_connect
 		(at 101.6 64.77)
 		(uuid "58570da7-2795-494a-ac4b-20ec769f9390")
-	)
-	(no_connect
-		(at 73.66 107.95)
-		(uuid "63939c0c-6ff6-4844-bf1b-788b3bf9fffb")
 	)
 	(no_connect
 		(at 101.6 62.23)
@@ -1215,10 +1203,6 @@
 	(no_connect
 		(at 101.6 69.85)
 		(uuid "a08054b0-74c2-4b86-9388-004dfd297c04")
-	)
-	(no_connect
-		(at 101.6 82.55)
-		(uuid "aca371a4-1ec8-43f5-ba29-c2cf65666907")
 	)
 	(no_connect
 		(at 101.6 74.93)
@@ -1392,7 +1376,7 @@
 		)
 		(uuid "fea511fe-2404-4e55-9feb-f7e963a4f11d")
 	)
-	(global_label "GP19"
+	(global_label "GP16"
 		(shape bidirectional)
 		(at 238.76 114.3 180)
 		(fields_autoplaced yes)
@@ -1458,7 +1442,7 @@
 			)
 		)
 	)
-	(global_label "GP5"
+	(global_label "GP21"
 		(shape bidirectional)
 		(at 238.76 57.15 180)
 		(fields_autoplaced yes)
@@ -1470,7 +1454,7 @@
 		)
 		(uuid "16481c3a-d8bd-4e57-9eb2-e84689a60336")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.914 57.15 0)
+			(at 229.7045 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1464,7 @@
 			)
 		)
 	)
-	(global_label "GP3"
+	(global_label "GP26"
 		(shape bidirectional)
 		(at 185.42 57.15 180)
 		(fields_autoplaced yes)
@@ -1492,7 +1476,29 @@
 		)
 		(uuid "1b046a7e-b82d-4493-9371-5035044e3bcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.574 57.15 0)
+			(at 176.3645 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP17"
+		(shape bidirectional)
+		(at 185.42 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c0b3e8d-f4a6-4f53-8754-5b188236e101")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.3645 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1530,7 @@
 			)
 		)
 	)
-	(global_label "GP13"
+	(global_label "GP3"
 		(shape bidirectional)
 		(at 238.76 95.25 180)
 		(fields_autoplaced yes)
@@ -1536,7 +1542,7 @@
 		)
 		(uuid "21c376e4-60d8-4527-8953-1408c204ea4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7045 95.25 0)
+			(at 230.914 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1618,29 @@
 			)
 		)
 	)
-	(global_label "GP9"
+	(global_label "GP27"
+		(shape bidirectional)
+		(at 101.6 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38b29cda-3ae2-45d6-a2d7-58346e87f54f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.6555 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP7"
 		(shape bidirectional)
 		(at 238.76 76.2 180)
 		(fields_autoplaced yes)
@@ -1630,6 +1658,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP26"
+		(shape bidirectional)
+		(at 101.6 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42b33891-fb46-4965-942b-05cea474f5d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.6555 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1656,7 +1706,29 @@
 			)
 		)
 	)
-	(global_label "GP4"
+	(global_label "GP22"
+		(shape bidirectional)
+		(at 101.6 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4368536c-3034-43c1-ae24-71dfdd7dca37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.6555 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP22"
 		(shape bidirectional)
 		(at 212.09 57.15 180)
 		(fields_autoplaced yes)
@@ -1668,7 +1740,7 @@
 		)
 		(uuid "4938a192-6408-452d-8cc0-432210743996")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.244 57.15 0)
+			(at 203.0345 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1772,7 @@
 			)
 		)
 	)
-	(global_label "GP12"
+	(global_label "GP2"
 		(shape bidirectional)
 		(at 212.09 95.25 180)
 		(fields_autoplaced yes)
@@ -1712,7 +1784,7 @@
 		)
 		(uuid "65ed534a-c6f0-45ef-8804-5c4749c4e6b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.0345 95.25 0)
+			(at 204.244 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,6 +1860,28 @@
 			)
 		)
 	)
+	(global_label "GP14"
+		(shape bidirectional)
+		(at 185.42 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76f4c5d7-2d91-4402-ba65-c08379db7cbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.3645 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GP19"
 		(shape bidirectional)
 		(at 101.6 100.33 0)
@@ -1810,7 +1904,7 @@
 			)
 		)
 	)
-	(global_label "GP10"
+	(global_label "GP9"
 		(shape bidirectional)
 		(at 158.75 95.25 180)
 		(fields_autoplaced yes)
@@ -1822,7 +1916,7 @@
 		)
 		(uuid "7fe8a86e-7884-4b98-b156-fbccc814f12e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6945 95.25 0)
+			(at 150.904 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1926,7 @@
 			)
 		)
 	)
-	(global_label "GP7"
+	(global_label "GP4"
 		(shape bidirectional)
 		(at 185.42 76.2 180)
 		(fields_autoplaced yes)
@@ -1845,6 +1939,28 @@
 		(uuid "8675d294-d038-44b3-9a81-4ee279b4e612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.574 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP10"
+		(shape bidirectional)
+		(at 158.75 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91674441-6523-4de8-996a-23b481141254")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.6945 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1992,7 @@
 			)
 		)
 	)
-	(global_label "GP6"
+	(global_label "GP5"
 		(shape bidirectional)
 		(at 158.75 76.2 180)
 		(fields_autoplaced yes)
@@ -1898,7 +2014,7 @@
 			)
 		)
 	)
-	(global_label "GP8"
+	(global_label "GP6"
 		(shape bidirectional)
 		(at 212.09 76.2 180)
 		(fields_autoplaced yes)
@@ -1920,29 +2036,7 @@
 			)
 		)
 	)
-	(global_label "GP20"
-		(shape bidirectional)
-		(at 158.75 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad7ba3c8-a1ae-496a-8637-7452810943ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6945 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GP11"
+	(global_label "GP8"
 		(shape bidirectional)
 		(at 185.42 95.25 180)
 		(fields_autoplaced yes)
@@ -1954,7 +2048,7 @@
 		)
 		(uuid "afa92a86-3880-4268-bbe5-79b3d5f8d2c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3645 95.25 0)
+			(at 177.574 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,28 +2080,6 @@
 			)
 		)
 	)
-	(global_label "GP21"
-		(shape bidirectional)
-		(at 185.42 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd526f4d-b395-47a6-9ea3-9f82d591a85c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3645 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GP4"
 		(shape bidirectional)
 		(at 73.66 74.93 180)
@@ -2030,29 +2102,7 @@
 			)
 		)
 	)
-	(global_label "GP17"
-		(shape bidirectional)
-		(at 185.42 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d67f6bfb-d116-425a-a49a-9896316d5130")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3645 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GP16"
+	(global_label "GP20"
 		(shape bidirectional)
 		(at 158.75 114.3 180)
 		(fields_autoplaced yes)
@@ -2065,6 +2115,28 @@
 		(uuid "e0e5a792-9050-400f-a9ae-514a50b1be1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.6945 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP14"
+		(shape bidirectional)
+		(at 73.66 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e21db30a-ddd1-4858-be5e-c0197cc7d956")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.6045 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2190,7 @@
 			)
 		)
 	)
-	(global_label "GP2"
+	(global_label "GP27"
 		(shape bidirectional)
 		(at 158.75 57.15 180)
 		(fields_autoplaced yes)
@@ -2130,7 +2202,7 @@
 		)
 		(uuid "ec1cde36-a531-48ac-a077-07277826abd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.904 57.15 0)
+			(at 149.6945 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 243.84 52.07 0)
 			(effects
 				(font
@@ -2476,7 +2548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 217.17 71.12 0)
 			(effects
 				(font
@@ -2544,7 +2616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 190.5 128.27 0)
 			(effects
 				(font
@@ -2612,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_2U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_2U"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -2680,7 +2752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 163.83 52.07 0)
 			(effects
 				(font
@@ -3053,7 +3125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MicroComputer:RaspberryPi_Pico")
+		(lib_id "MicroController:RaspberryPi_Pico")
 		(at 87.63 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3078,7 +3150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MicroComputer:RaspberryPi_Pico"
+		(property "Footprint" "MicroController:RaspberryPi_Pico"
 			(at 87.63 115.316 0)
 			(effects
 				(font
@@ -3326,7 +3398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 190.5 71.12 0)
 			(effects
 				(font
@@ -3460,7 +3532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 163.83 128.27 0)
 			(effects
 				(font
@@ -3660,7 +3732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 243.84 90.17 0)
 			(effects
 				(font
@@ -3728,7 +3800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_2U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_2U"
 			(at 243.84 109.22 0)
 			(effects
 				(font
@@ -3796,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 190.5 52.07 0)
 			(effects
 				(font
@@ -3930,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 163.83 90.17 0)
 			(effects
 				(font
@@ -4064,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 217.17 90.17 0)
 			(effects
 				(font
@@ -4132,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_2.75U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_2.75U"
 			(at 190.5 109.22 0)
 			(effects
 				(font
@@ -4200,7 +4272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 217.17 52.07 0)
 			(effects
 				(font
@@ -4400,7 +4472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 163.83 71.12 0)
 			(effects
 				(font
@@ -4468,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 190.5 90.17 0)
 			(effects
 				(font
@@ -4536,7 +4608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_1U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_1U"
 			(at 243.84 71.12 0)
 			(effects
 				(font
@@ -4736,7 +4808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switch:Cherry_MX_HotSwap_2.25U"
+		(property "Footprint" "KeySwitch:Cherry_MX_HotSwap_2.25U"
 			(at 163.83 109.22 0)
 			(effects
 				(font
